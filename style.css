@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    text-align: left;
+    justify-content: flex-start;
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+    background: linear-gradient(to right, #ffffff 50%, #1e805c 50%);
+    
+}
+section#form{
+    
+    height: 100%;
+    width: 500px;
+    padding-left: 150px;
+    border-radius: 15px;
+    text-align: left;
+    justify-content: left;
+    line-height: 45px;
+    
+}
+.icon{
+    padding-top: 35px;
+    padding-bottom: 45px;
+    justify-content: left;
+    display: flex;
+    
+}
+#btn-enter{
+    background-color: #1e805c;
+    height: 45px;
+    width: 350px;
+    border-radius: 12px;
+    border-style: none;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+#btn-enter:hover{
+    background-color: #238662;
+    cursor: pointer;
+}
+input#CPF{
+    height: 45px;
+    width: 350px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border-width: 0.1px;
+    font-family: "Rubik", sans-serif;
+  
+}
+input#senha{
+    height: 45px;
+    width: 350px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border-width: 0.1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.formulario{
+    line-height: 4px;
+}
+h1{
+    text-align: left;
+    font-size: 30px;
+}
+a#sqs{
+    color: #238662;
+    font-size: 16px;
+    
+}
+
+#font{
+    font-family: "Rubik", sans-serif;
+    font-size: small;
+    text-align: left;
+}
+#bnt-emp{
+    background-color: #E6F2EE;
+    border-style: none;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    color: #136C4C;
+    font-size: small;
+    font-family:"Rubik", sans-serif;
+    font-weight: 700;
+}
+#botao-esq{
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+}
+a.footer{
+    color: #136C4C;
+    font-weight: 600 ;
+}
+#sqsd{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    padding-top: 60px;
+    padding-left: 150px;
+    border-radius: 15px;
+    text-align: left;
+    justify-content: left;
+    line-height: 45px;
+}
+
+
+.section-left {
+    flex: 1; /* A seção à esquerda ocupará o espaço restante */
+    padding: 20px; /* Espaçamento dentro da seção */
+}
+
+.container {
+    position: absolute; /* Permite que o contêiner fique fixo na tela */
+    top: 0; /* Alinha ao topo */
+    right: 0; /* Alinha à direita */
+    width: 109vh; /* Define uma largura para a imagem */
+}
+
+.image img {
+    
+   justify-content: center;
+    width: 673px; /* Limita a largura da imagem ao tamanho do contêiner */
+    height: 129vh; /* Mantém a proporção da imagem */
+}
+
